@@ -1,0 +1,58 @@
+.header{
+
+  .header__brand{
+    margin-top: 15px;
+    @media screen and (max-width: 767px){
+      margin: 0;
+      padding: 10px;
+    }
+    .trendy-logo{
+      height: 32px;
+    }
+    .trendy-logo-white{
+      display: none;
+    }
+  }
+  li{
+    font-weight: bold;
+  }
+  .header__list{
+    padding: 10px !important;
+    margin-top: 25px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    &:focus{
+      background-color: transparent;
+    }
+    &:hover{
+      color: #c59a6d;
+      background-color: transparent;
+    }
+    @media screen and (max-width: 767px){
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: -2px;
+    }
+  }
+  .header__list.active{
+    color: #c59a6d;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    @media screen and (max-width: 767px){
+      border: none;
+    }
+  }
+  .havbar__button{
+    border: 1px solid #c59a6d !important;
+    span{
+      background-color:  #c59a6d;
+    }
+  }
+}
+.navbar-fixed-top{
+  background-color: #3C3B3A;
+  padding-bottom: 25px;
+  @media screen and (max-width: 767px){
+    padding-bottom: 0 !important;
+  }
+}

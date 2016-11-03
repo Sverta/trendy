@@ -1,0 +1,77 @@
+//FIND US
+
+.find-us{
+  padding-bottom: 84px;
+  background: url(http://placehold.it/1600x468) center no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  position: relative;
+  ul{
+    list-style: none;
+  }
+  .find-us__icon{
+    font-size: 46px;
+    text-shadow: 0 0 1em black;
+    @media screen and (max-width: 992px){
+      font-size: 35px;
+    }
+    @media screen and (max-width: 769px){
+      float: right;
+    }
+  }
+  .find-us__name{
+   // @include yellow_name;
+    font-size: 17px;
+    margin-top: -2px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    color: #c59a6d;
+    font-weight: bold;
+  }
+  .find-us__information{
+    padding-left: 10px;
+    @media screen and (max-width: 992px){
+      padding-bottom: 30px;
+    }
+    a{
+      color: #ffffff;
+    }
+  }
+}
+.find-us-block{
+  height: 100%;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2c2b2a;
+    opacity: .9;
+  }
+}
+.find-us-article{
+  position: relative;
+}
+.footer{
+  padding: 46px 0;
+  p{
+    @media screen and (max-width: 992px){
+      text-align: center;
+    }
+  }
+  .footer__network-list{
+    float: right;
+    a{
+      color: black;
+      &:hover{
+        color: #777777;
+      }
+    }
+    @media screen and (max-width: 992px){
+      float: none;
+      text-align: center;
+    }
+  }
+}

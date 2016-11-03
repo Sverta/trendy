@@ -1,0 +1,327 @@
+.dark{
+    background-color: #31302f;
+    color: #FFFFFF;
+
+  .main-content__article,
+  .main-content__text{
+    color: #FFFFFF;
+  }
+
+  /*header*/
+  .navbar-fixed-top {
+    background-color: #C6A077;
+  }
+  .trendy-logo{
+    display: none !important;
+  }
+  .trendy-logo-white{
+    display: block !important;
+    height: 32px;
+  }
+  .header {
+    .havbar__button {
+      background-color: #fff;
+    }
+    .header__list{
+      &:active,
+      &:focus,
+      &:hover{
+        color: #ffffff;
+      }
+      &.active{
+        color: #ffffff;
+      }
+    }
+  }
+
+  /*MAIN BLOCK "WE ARE DESIGNING"*/
+  .header__block:before {
+    background-color: #c69b6e;
+    opacity: 0.9;
+  }
+  .header__article{
+    h1:first-child:after {
+      background-color: #FFFFFF;
+    }
+  }
+  .header__scroll-down {
+    span {
+      color: #FFFFFF;
+    }
+  }
+  .timeline{
+    &:before{
+      background-color: #7f7e7e;
+    }
+    .timeline-badge{
+      border: 3px solid #31302f;
+    }
+    .timeline-panel,
+    .timeline__icon{
+      border: 1px solid #7f7e7e;
+    }
+  }
+
+  .about-us:after {
+    background-color: #7f7e7e;
+  }
+  .content-image{
+    border: 1px solid #7f7e7e  !important;
+  }
+  .thumbnail{
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #7f7e7e;
+  }
+
+  .services:after{
+    background-color: #7f7e7e;
+  }
+
+
+  .prices-container{
+    li{
+      color: #000;
+    }
+    &:hover,
+    &:focus{
+      li,
+      .price__number,
+      .prices__monthly{
+        color: #FFFFFF;
+      }
+    }
+  }
+  .price__number,
+  .prices__monthly{
+    color: #000000;
+  }
+  .catchy-sentance__block:before {
+    background-color: #c69b6e !important;
+  }
+  .testimonials__content-image{
+    border: 1px solid #7f7e7e;
+  }
+
+  .testimonials__navigate {
+    a {
+      color: #FFFFFF;
+    }
+  }
+
+  .testimonials:after {
+    background-color: #7f7e7e;
+  }
+  .cool-facts{
+    height: 100%;
+    position: relative;
+
+    &:before{
+      //background-color: #c59a6d;
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.9;
+    }
+  }
+  .fact__product-name{
+    color: #000000 !important;
+  }
+  /*OUR BLOCK*/
+  /*right-block*/
+  .search__input{
+    background-color: #373634;
+    border: 1px solid #7f7e7e;
+    color: #FFFFFF;
+  }
+  .subscribe-input{
+    color: #FFFFFF;
+  }
+  .btn-search{
+    background-color: #373634;
+    top: 1px;
+    right: 1px;
+    height: 46px;
+  }
+  .categories__list-group{
+    a {
+      background-color: transparent;
+      border-left: none !important;
+      border-right: none !important;
+    }
+  }
+  .right-block__article{
+    color: #FFFFFF;
+  }
+  .categories__list{
+    border: 1px solid #7f7e7e;
+    a{
+      border: 1px solid #7f7e7e;
+    }
+  }
+  .popular__list{
+    background-color: transparent;
+    border: 1px solid #7f7e7e;
+  }
+  .text-widget__paragraph{
+    background-color: #2c2b2a;
+    color: #FFFFFF;
+  }
+  .subscribe_newsletter-form{
+    border: 1px solid #7f7e7e;
+    label{
+      color: #FFFFFF;
+    }
+    input{
+      background-color: #373634;
+      border: 1px solid #7f7e7e;
+    }
+  }
+
+  .calendar{
+    background-color: #2c2b2a;
+    td{
+      color: #7f7e7e;
+      &.navigation{
+        color: #fff;
+      }
+    }
+  }
+  /*left block*/
+  .main__article{
+    border-bottom: 1px solid #777;
+  }
+  .standart__date-block{
+    border: 1px solid #7f7e7e;
+    .standart__icon-date{
+      color: #FFFFFF;
+    }
+    .standart__date{
+      color: #FFFFFF;
+    }
+  }
+  .standart-text{
+    color: #FFFFFF;
+  }
+
+  /*audio*/
+  .mejs-container {
+    background-color: #2c2b2a;
+  }
+  .mejs-controls {
+    .mejs-button{
+      button{
+        i {
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  /*single-post*/
+  .single-post-grey{
+    background-color: #2c2b2a;
+  }
+  .single-post-grey-standart{
+    background-color: #2c2b2a;
+  }
+  /*navigation*/
+  .blog_our-navigation{
+    border: 1px solid #7f7e7e;
+    .pagination_angle{
+      background-color: transparent;
+      &:hover,
+      &:focus{
+        background-color: transparent;
+        span{
+          color: #7f7e7e;
+        }
+
+      }
+    }
+    .pagination_number{
+      background-color: #2c2b2a !important;
+      border-left: 1px solid #7f7e7e !important;
+      border-right: 1px solid #7f7e7e !important;
+    }
+  }
+
+  /*OUR_BLOCK-STANDART*/
+  .standart-icon-number {
+    .standart-number {
+      border: 1px solid #7f7e7e;
+    }
+  }
+  .paragraph-text{
+    color: #FFFFFF;
+  }
+
+
+  .standart_number-list{
+    li::before {
+      background-color: #2c2b2a;
+    }
+  }
+
+  .standart_text-list {
+    li:before {
+      background-color: #2c2b2a;
+    }
+  }
+  .popular-tags-stick{
+    color: #FFFFFF;
+  }
+  /*about didi*/
+  .about_didi{
+    background-color: #2c2b2a;
+  }
+  .related_block {
+    border: 1px solid #777;
+  }
+  .related-text{
+    color: #FFFFFF;
+  }
+  .comments{
+    p{
+      color: #FFFFFF ;
+    }
+    .comments_list{
+      border: 1px solid #7f7e7e;
+    }
+    .commment_user-name {
+      color: #FFFFFF ;
+    }
+  }
+  /*MODAL WINDOWS*/
+  .modal-content{
+    background-color: #31302f;
+    color: #FFFFFF;
+  }
+  .video-progress-block{
+    background-color: #2c2b2a;
+  }
+
+  /*footer*/
+  .find-us{
+    background-color: #c69b6e !important;
+    .find-us__name{
+      color: #000000;
+    }
+  }
+  .footer{
+    color: #FFFFFF;
+    .footer__network-list{
+      a{
+        color: #FFFFFF !important;
+      }
+    }
+  }
+  .contact-us__information{
+    background-color: #373634;
+    border: 1px solid #7f7e7e;
+    color: #FFFFFF;
+  }
+}
