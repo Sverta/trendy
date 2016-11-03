@@ -1,0 +1,15 @@
+Страницы проекта trendy выполнялись с использованием:
+HTML5;
+CSS3;
+Bootstrap3;
+Gulp;
+JQuery;
+
+Плагины:
+swiper
+mediaelement-and-player
+leanbackPlayer
+arcticmodal
+spincrement
+
+Реализация данной страницы располагается в папке home, шаблон в формате JPG находится в папке trendy-psd-theme
